@@ -1,0 +1,16 @@
+//======================
+// Main Sass file
+// compile to -> /css/style.css
+//======================
+
+// import Lighting Fly library
+@import "lightingfly/_lighting_fly";
+
+// import Normalize css
+@import "../../components/normalize/normalize";
+
+// import HTML5 boilerplate css
+@import "modules/_reset.scss";
+
+// import main stylesheet
+@import "modules/_main.scss";
